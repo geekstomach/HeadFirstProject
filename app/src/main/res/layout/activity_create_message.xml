@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".CreateMessageActivity">
+
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/hint"
+        android:ems="10"/>
+    <Button
+        android:id="@+id/sendE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onSendMessageExplicit"
+        android:text="@string/sendE"
+        />
+    <Button
+        android:id="@+id/sendI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onSendMessageImplicit"
+        android:text="@string/sendI"
+        />
+    <Button
+        android:id="@+id/sendC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="onSendMessageChooser"
+        android:text="@string/sendC"
+        tools:ignore="OnClick" />
+</LinearLayout>

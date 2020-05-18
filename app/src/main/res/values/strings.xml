@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Head First Project</string>
-    <string name="text">Может все это зря?</string>
+    <string name="hint">Enter a message</string>
+    <string name="sendE">Send an Explicit message</string>
+    <string name="sendI">Send an Implicit message</string>
+    <string name="sendC">Send a message with Choose</string>
+    <string name="chooser">Send message by…</string>
 </resources>
