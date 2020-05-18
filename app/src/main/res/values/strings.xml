@@ -1,4 +1,13 @@
 <resources>
-    <string name="app_name">Head First Project</string>
-    <string name="text">Может все это зря?</string>
+    <string name="app_name" translatable="false">Head First Project</string>
+    <string name="text" translatable="false">Может все это зря?</string>
+    <string name="this_text_is_a_sample">This text is a sample</string>
+    <string name="find_beer">Find Beer!</string>
+    <string name="brands">No beers selected</string>
+    <string-array name="beer_colors">
+        <item>light</item>
+        <item>amber</item>
+        <item>brown</item>
+        <item>dark</item>
+    </string-array>
 </resources>
