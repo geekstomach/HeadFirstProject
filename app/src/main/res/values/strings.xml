@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Head First Project</string>
     <string name="text">Может все это зря?</string>
+    <string name="startButton">Start</string>
+    <string name="stopButton">Stop</string>
+    <string name="restartButton">Restart</string>
 </resources>
